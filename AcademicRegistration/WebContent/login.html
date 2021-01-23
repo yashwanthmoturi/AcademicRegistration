@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<style>
+#texttype{
+border-radius:25px;
+width:200px;
+height:30px;
+outline:none;
+}
+.button {
+  background-color: #3366FF;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+a:link {
+  color: yellow;
+}
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:active {
+  color: blue;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+</style>
+</head>
+
+<div style="background-image: url('https://i.pinimg.com/originals/68/ae/a2/68aea23ab965dc9dd3ed829be92bf9da.jpg');height:100%">
+<br><br><br><br><br><br><br>
+<center>
+<form action="Login" method="post">
+<h1 style="color:white;">User Name: <input type="text" id="texttype" name="uname" required> <br> <br></h1>
+<h1 style="color:white;">Password : <input type="password" id="texttype"  name="pwd" required> <br> <br></h1>
+<input class="button" type="submit" value="LOGIN"> <br>
+<a href="register.html"><h1>Create new account</h1></a><br>
+</form>
+</center>
+</div>
+</body>
+</html>
